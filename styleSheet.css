@@ -1,0 +1,253 @@
+
+body{
+    background-image: linear-gradient(to bottom right, rgb(93, 11, 72), rgb(2, 0, 130));
+    height: 1000px;
+}
+
+
+
+/* beggining of header */
+
+
+.header{
+    width: auto 0;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+
+
+.menu a:hover {
+     color:  white;
+ }
+.buttonMenu1{
+    border:2px solid #f2b8e5;
+    border-radius: 5px;
+    margin-left: 43%;
+    float: center;
+    color: #f2b8e5;
+    text-align: center;
+    padding: 14px 16px;
+    width: 133px;
+    text-decoration: none;
+    font-size: 20px;
+    height: 70px;
+    line-height: 55px;
+    font-family: 'Manrope', sans-serif;
+
+}
+.buttonMenu2{
+    border:2px solid #f2b8e5;
+    border-radius: 5px;
+    float: center;
+    color: #f2b8e5;
+    text-align: center;
+    padding: 14px 16px;
+    width: 133px;
+    text-decoration: none;
+    font-size: 20px;
+    height: 70px;
+    line-height: 55px;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+/* end of header */
+
+/*beggining of sign form*/
+.sign{
+    position: absolute;
+    width: 30%;
+    border-right:2px solid white ;
+}
+.sign-up{
+    height: 260px;
+    text-align: center;
+
+}
+.sign-in{
+    height: 200px;
+    text-align: center;
+    border-bottom: 2px solid white;
+
+
+}
+h2{
+    font-family: impact, sans-serif;
+    font-weight: 50;
+    color: #f2b8e5;
+}
+.message{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    color: #f2b8e5;
+
+}
+label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    color: #f2b8e5;
+    font-weight: 20;
+
+}
+
+/*end of sign form*/
+.imageHomepage{
+    margin-top: 100px;;
+    width: 100%;
+}
+
+/*beggining of right side*/
+.leftSide{
+    width: 60%;
+    float: right;
+    
+}
+/*end of right side*/
+
+
+
+td {
+    text-align:left;
+    padding: 10px 10px 10px 10px;
+
+}
+.letter{
+    font-family: impact, sans-serif;
+    color: #f2b8e5;
+    font-size: 50px;
+    text-align: center;
+
+}
+.letterSecondPage{
+    text-shadow: 5px 5px 5px hsl(305, 29%, 50%);
+    font-family: impact, sans-serif;
+    color: #f2b8e5;
+    font-size: 50px;
+    text-align: center;
+
+}
+table{
+    padding-right: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    text-align: top;
+    text-align: center;
+
+}
+.description{
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    color: #f2b8e5;
+    font-size: 20px;
+    text-align: center;
+}
+.evenRow{
+    background-color: #f2b8e5;
+    text-align: center;
+
+     
+}
+.oddRow{
+    background-color: #d87ac4;
+    text-align: center;
+
+
+}
+
+/*page 2 table css*/
+.goalField{
+    width: 200px;
+    height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    margin-bottom: 10px;font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-size: 15px;;
+
+}
+/*end of table page 2*/
+.labelDividorPage2{
+    border-top: 2px solid #f2b8e5;
+    border-bottom: 2px solid #f2b8e5;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    color: #f2b8e5;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px
+
+}
+.targetTextField{
+    width: 470px;
+    margin-top: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-size: 15px;;
+
+}
+.numberBox{
+    
+    margin-top: 20px;
+
+}
+.targetNumberField{
+    width: 445px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-size: 15px;;
+}
+.targetList{
+    padding-bottom : 50px;
+}
+.leftSection{
+    position: absolute;
+    margin-left: 200px;
+
+}
+#arrowsAndText{
+    position: relative;
+    height: 250px;
+    float: right; 
+    width:700px;
+}
+.arrow{
+    position: relative;
+    width: 30px; 
+}
+
+.labelArrow{
+    padding-right: 120px;
+    text-align: center;
+    position: relative;
+    float: left;
+    margin-top: -68px;
+    margin-left: 230px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    font-size: 20px;
+    color: #f2b8e5;
+
+
+}
+.labelDividorEndingPage2{
+    margin-top: 350px;
+    border-top: 2px solid #f2b8e5;
+    border-bottom: 2px solid #f2b8e5;
+    width: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif, sans-serif;
+    color: #f2b8e5;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px
+}
+#buttonSubmit{
+    border:2px solid #f2b8e5;
+    border-radius: 5px;
+    float: center;
+    color: #900271;
+    text-align: center;
+    width: 133px;
+    font-size: 20px;
+    height: 60px;
+    line-height: 55px;
+    font-family: 'Manrope', sans-serif;
+
+}
+
+
+
+
