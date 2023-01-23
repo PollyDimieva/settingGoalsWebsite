@@ -58,19 +58,9 @@ body{
     position: absolute;
     width: 30%;
     border-right:2px solid white ;
+    padding-right: 5px;
 }
-.sign-up{
-    height: 260px;
-    text-align: center;
 
-}
-.sign-in{
-    height: 200px;
-    text-align: center;
-    border-bottom: 2px solid white;
-
-
-}
 h2{
     font-family: impact, sans-serif;
     font-weight: 50;
@@ -92,6 +82,7 @@ label{
 .imageHomepage{
     margin-top: 100px;;
     width: 100%;
+  
 }
 
 /*beggining of right side*/
@@ -246,6 +237,40 @@ table{
     line-height: 55px;
     font-family: 'Manrope', sans-serif;
 
+}
+/* login in page css style  */
+
+.tracking{
+    /* hidden div that is populated */
+    height:  130px;
+    background-color: blue;
+    opacity: 0.5;
+    margin-bottom: 50px;
+}
+.SignUpDiv{
+    border-right: 2px solid #f2b8e5;
+    width: 65%;
+    color: #f2b8e5;
+    height: 600px;
+
+
+}
+.signInDiv{
+    width: 30%;
+    color: #75055d;
+    height: 800px;
+
+
+
+
+}
+.form-control{
+    position: relative;
+    padding-bottom: 10px;
+}
+.form-control label {
+    display: inline-block;
+    margin-bottom: 10px;
 }
 
 
