@@ -14,8 +14,7 @@ your goals -> -||- -->
         <title>home page</title>
         <link rel = "styleSheet" href = "./styleSheet.css">
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-        <script src="script.js"></script>
-
+        
     </head>
 <body>
     <div class="header">
@@ -29,93 +28,113 @@ your goals -> -||- -->
     <div class="tracking">
     </div>
 
+    <form class = "form" id = "form">
     <div class="SignUpDiv">
 
-         <div class = "form control">
+         <div class = "form-control">
         <label><b>User ID</b> </label>
-        <input type="text" placeholder="Enter your user ID">
-        <!-- <i class = "fas fa-check-circle" ></i>
-        <i class = "fas fa-exclamation-circle" ></i> -->
+        <br>
+        <input type="text" placeholder="Enter your user ID" id = "userID">
+    
         <small> Error message</small>
         <br>
         <br>
         </div>
 
         <div class = "form-control">
-        <label><b>password</b> </label>
-        <input type="password" placeholder="Enter your password">
+        <br>
+        <label><b>Password</b> </label>
+        <br>
+        <input type="password" placeholder="Enter your password" id = "password">
         <small> Error message</small>
-        <br>
-        <br>
-        </div>
-
-        <div class = "form-control">
-        <label><b>name</b> </label>
-        <input type="text" placeholder="Enter your name">
-        <small> Error message</small>
-        <br>
-        <br>
-        </div>
-
-        <div class = "form-control">
-        <label><b>Address</b> </label>
-        <input type="text" placeholder="Enter address line">
         
         <br>
         <br>
         </div>
 
         <div class = "form-control">
+        <br>
+        <label><b>Name</b> </label>
+        <br>
+        <input type="text" placeholder="Enter your name" id = "name">
+        <small> Error message</small>
+        <br>
+        <br>
+        </div>
+
+        <div class = "form-control">
+        <br>   
+        <label><b>Address</b> </label>
+        <br>
+        <input type="text" placeholder="Enter address line" id = "address">
+        
+        <br>
+        <br>
+        </div>
+
+        <div class = "form-control">
+        <br>   
         <label><b>Country</b> </label>
-        <input type="text" placeholder="Your country">
+        <br>
+        <input type="text" placeholder="Your country" id = "country">
         <small> Error message</small>
         <br>
         <br>
         </div>
 
         <div class = "form-control">
+        <br>    
         <label><b>ZIP code</b> </label>
-        <input type="text" placeholder="Your zip code">
+        <br>
+        <input type="text" placeholder="Your zip code" id = "zipCode">
         <small> Error message</small>
         <br>
         <br>
         </div>
 
         <div class = "form-control">
+        <br>   
         <label><b>Email</b> </label>
-        <input type="text" placeholder="Enter your email address">
+        <br>
+        <input type="text" placeholder="Enter your email address" id = "email">
         <small> Error message</small>
         <br>
         <br>
         </div>
 
         <div class = "form-control">
+        <br>    
         <label><b>Sex</b> </label>
         <select name = "sex" id = "sex">
             <option value ="male" >Male</option>
             <option value ="female" >Female</option>
             <option value ="other" >Other</option>
         </select>
+        <br>
+        <br>
+        </div>
+
+        <div class = "form-control">
+        <br>    
+        <label><b>Language</b> </label>
+        <br>
+        <input type="text" placeholder="Enter your language" id = "language">
         <small> Error message</small>
         <br>
-        <br>
         </div>
 
         <div class = "form-control">
-        <label><b>Language</b> </label>
-        <input type="text" placeholder="Enter your language">
-
-        <br>
-        <br>
-        </div>
-
-        <div class = "form-control">
+            <br>    
         <label><b>About/Bio</b> </label>
-        <input type="text" placeholder="Enter your bio">
-
         <br>
+        <input type="text" placeholder="Enter your bio" id = "bio">
         <br>
         </div>
+        
+            <button id = "btn" type = "submit" >Submit</button>
+        
+
+    </form>
         
         
 
@@ -123,9 +142,10 @@ your goals -> -||- -->
 
     <div class="SignInDiv">
     </div>  
+        
+    <script src="script.js"></script>
 
-        <button type="button" onclick="return validateForm()">submit</button>
- 
-
+   
 
 </body>
+</html>
